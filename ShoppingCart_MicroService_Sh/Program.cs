@@ -12,9 +12,9 @@ namespace ShoppingCart_MicroService_Sh
     {
         static void Main(string[] args)
         {
-            //string baseUri = "http://*:5000";
+            string baseUri = "http://*:8080";
             // in debug in visual studio you will need 
-            string baseUri = "http://localhost:9000/";
+            //string baseUri = "http://localhost:9000/";
 
             // Start OWIN host 
             using (WebApp.Start<Startup>(url: baseUri))
