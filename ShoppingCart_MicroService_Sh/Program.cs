@@ -22,11 +22,6 @@ namespace ShoppingCart_MicroService_Sh
                 // Create HttpCient and make a request to api/values 
                 HttpClient client = new HttpClient();
 
-                var response = client.GetAsync(baseUri + "api/shoppingcart").Result;
-
-                Console.WriteLine(response);
-                Console.WriteLine(response.Content.ReadAsStringAsync().Result);
-
                 var baseUriString = baseUri + "api/shoppingcart";
                 Console.WriteLine("ShoppingCart Service running at {0} - press Enter to quit. ", baseUriString);
                 Console.WriteLine("Server running at {0} - press Enter to quit. ", baseUri);
