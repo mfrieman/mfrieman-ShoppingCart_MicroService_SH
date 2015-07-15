@@ -28,7 +28,7 @@ namespace ShoppingCart_MicroService_Sh.Models
                     new Item(){ name = "Canali Suit", price = "$1200.00", quantity = "1"  },
                     new Item(){ name = "PacMan Cuflinks", price = "$35.00", quantity = "1"  }
                 },
-                name = "Senior Associate"
+                name = "Dream Cart"
             };
         }
     }
